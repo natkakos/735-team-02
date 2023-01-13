@@ -9,16 +9,16 @@
 .ourpartners__top__text{
     color: #614E44;
     font-family:"Rubik",sans-serif;
-    font-size: 16;
+    font-size: 16px;
 }
 .ourpartners__bottom__text{
     color: #aa7c5a;
-    font-size: 16;
+    font-size: 16px;
     font-family:"Rubik",sans-serif;
 }
 .ourpartners {
     background-image:
-        url(/img/background_light.png);
+        url(img/background_light.png);
 }
 
 .ourparters__x {
@@ -29,12 +29,12 @@
 }
 .ourpartners__logo {
     display: flex;
-    margin: 0, -20px;
+    margin: 0 -20px;
 
 }
 
 .ourpartners__logo__container {
-    padding: 0, 20px;
+    padding: 0 20px;
 }
 
 .ourpartners__logo__container__img {
