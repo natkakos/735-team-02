@@ -1,3 +1,6 @@
+.discover {
+    background-color: var(--background-color);
+}
 .separator {
     font-family: 'Frank Ruhl Libre', sans-serif;
     color: rgb(248, 184, 3);
