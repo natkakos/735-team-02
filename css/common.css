@@ -1,11 +1,22 @@
 @import url('https://fonts.googleapis.com/css2?family=Frank+Ruhl+Libre&family=Rubik&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Frank+Ruhl+Libre&display=swap');
 
+<<<<<<< HEAD
 *{
     margin: 0px;
     padding: 0px;
 }
+=======
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+>>>>>>> f072fd6dd4a50230f4bcbedb929a201be0e782d7
 :root {
     font-family: 'Rubik', 'Frank Ruhl Libre', sans-serif;
-
+    scroll-behavior: smooth;
+    --text-color: rgb(248, 187, 3); 
+    --background-color: #261d17;
 }
