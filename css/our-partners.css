@@ -1,0 +1,118 @@
+.main__ourpartners {
+    padding: 50px 0 35px;
+    background-color: rgb(244, 238, 225);
+}
+
+.ourparters__header {
+    padding: 0 15px;
+    box-sizing: border-box;
+    display: flex;
+    flex-basis: 100%;
+    flex-direction: column;
+    font-weight: 400;
+    justify-content: center;
+    line-height: 30px;
+}
+
+.ourparters__x {
+    color: rgb(150, 90, 28);
+    font-size: 14px;
+    text-align: left;
+    font-family: "Frank Ruhl Libre", serif;
+    display: block;
+    line-height: 20px;
+    letter-spacing: 1.4px;
+    width: 375px;
+}
+
+.ourparters__title {
+    margin-top: 20px;
+    text-align: left;
+    color: #261d17;
+    font-size: 34px;
+    font-family: "Frank Ruhl Libre", serif;
+}
+
+.wheat {
+
+    margin-top: 20px;
+    margin-left: -10px;
+    justify-content: left;
+}
+
+.top__text {
+    margin-top: 20px;
+    color: #614E44;
+    font-family: "Rubik", sans-serif;
+    font-size: 20px;
+
+}
+
+.bottom__text {
+    margin-top: 20px;
+    color: #aa7c5a;
+    font-size: 17px;
+    font-family: "Rubik", sans-serif;
+
+}
+
+/* всі частини з фото і підписом */
+
+/* блок фото і підписом */
+.ourpartners__logo__container {
+    padding: 0 20px;
+    width: 100%;
+    height: 100%;
+}
+
+/* блок фото */
+.ourpartners__logo__container__img {
+    max-width: 100%;
+    max-height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* фото */
+.logo__container__img {
+    width: 100%;
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+}
+
+/* підпис */
+.logo__container__name {
+    font-size: 17px;
+    font-family: "Rubik", sans-serif;
+    color: #614e44;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+@media (min-width: 1000px) {
+    .main__ourpartners {
+        display: flex;
+        padding: 0 120px;
+    }
+
+    .ourpartners {
+        display: flex;
+    }
+
+    .ourparters__header {
+        flex: 1;
+        flex-direction: column;
+        font-weight: 400;
+        justify-content: center;
+        line-height: 30px;
+    }
+
+    .ourpartners__logo {
+        display: flex;
+        align-items: center;
+        flex: 1;
+    }
+}
