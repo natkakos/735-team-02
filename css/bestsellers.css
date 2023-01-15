@@ -17,17 +17,26 @@
 .beer_name {
     color: var(--second_text-color);
     font-family: 'Frank Ruhl Libre', sans-serif;
-    font-size: 44px;
 }
 
 .stout_container {
     background-image: url(../img/background__barrels.webp);
-    display: grid;
-    grid-template-columns: 2fr 1fr;
- 
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-around;
+    align-items: stretch;
     background-size: cover;
     background-position: 50% 50%;
     min-height: 400px;
+}
+
+.stout_compositions {
+    color: var(--text-color);
+
+}
+
+.beer__gen {
+    color: var(--text-color);
 }
 
 .indian-ale_container {
