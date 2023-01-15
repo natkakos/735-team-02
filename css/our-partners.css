@@ -1,21 +1,21 @@
 .main__ourpartners {
-    padding: 50px 0 35px;
-    background-color: rgb(244, 238, 225);
+    padding: 50px 24px;
+    background-color: var(--background-color-light);
+    min-height: 400px;
 }
 
 .ourparters__header {
-    padding: 0 15px;
     box-sizing: border-box;
     display: flex;
     flex-basis: 100%;
     flex-direction: column;
-    font-weight: 400;
+    /* font-weight: 400; */
     justify-content: center;
-    line-height: 30px;
+    /* line-height: 30px; */
 }
 
 .ourparters__x {
-    color: rgb(150, 90, 28);
+    color:var(--color-xxx);
     font-size: 14px;
     text-align: left;
     font-family: "Frank Ruhl Libre", serif;
@@ -28,13 +28,12 @@
 .ourparters__title {
     margin-top: 20px;
     text-align: left;
-    color: #261d17;
+    color:var(--colot-title);
     font-size: 34px;
     font-family: "Frank Ruhl Libre", serif;
 }
 
 .wheat {
-
     margin-top: 20px;
     margin-left: -10px;
     justify-content: left;
@@ -42,18 +41,16 @@
 
 .top__text {
     margin-top: 20px;
-    color: #614E44;
+    color:var(--color-subtitle);
     font-family: "Rubik", sans-serif;
     font-size: 20px;
-
 }
 
 .bottom__text {
     margin-top: 20px;
-    color: #aa7c5a;
+    color:var(--color-subtitle-light);
     font-size: 17px;
     font-family: "Rubik", sans-serif;
-
 }
 
 /* всі частини з фото і підписом */
@@ -62,7 +59,7 @@
 .ourpartners__logo__container {
     padding: 0 20px;
     width: 100%;
-    height: 100%;
+    /* height: 100%; */
 }
 
 /* блок фото */
@@ -70,6 +67,7 @@
     max-width: 100%;
     max-height: 100%;
     display: flex;
+    flex: 1;
     align-items: center;
     justify-content: center;
 }
@@ -86,16 +84,34 @@
 .logo__container__name {
     font-size: 17px;
     font-family: "Rubik", sans-serif;
-    color: #614e44;
+    color:var(--color-subtitle);
     display: flex;
     align-items: center;
     justify-content: center;
 }
 
+.main__bottom__line {
+    /* background-color: var(--background-color-light); */
+    background: linear-gradient(var(--background-color-light) 50%, var(--background-color) 50%);
+    max-height: 50px;
+    width: 100%;
+    height: 100%;
+    margin: 0 0 50px 0;
+}
+
+.bottom__line {
+    background-color: var(--background-color-light);
+    padding: 0 0 0 0;
+    width: 100%;
+    height: 100%;
+    transform: rotate(180deg);
+    object-fit: contain;
+}
+
 @media (min-width: 1000px) {
     .main__ourpartners {
         display: flex;
-        padding: 0 120px;
+        padding: 15px 150px 0 150px;
     }
 
     .ourpartners {
