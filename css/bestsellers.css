@@ -29,11 +29,6 @@
     display: flex;
     background-size: cover;
     background-position: 50% 50%;
-
-}
-
-.botle__stout {
-    width: 100%;
 }
 
 .stout_compositions {
@@ -43,14 +38,12 @@
     text-align: left;
 }
 
-
 /*Indian*/
 .indian-ale_container {
     background-image: url(../img/background__barrels.webp);
     display: flex;
     background-size: cover;
     background-position: 50% 50%;
-
 }
 
 .indian-ale_compositions {
@@ -66,7 +59,6 @@
     display: flex;
     background-size: cover;
     background-position: 50% 50%;
-
 }
 
 .american-ale_compositions {

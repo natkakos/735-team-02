@@ -2,7 +2,7 @@
     background-color: var(--background-color);
 }
 
-.separator {
+.separator_discover {
     font-family: 'Frank Ruhl Libre', sans-serif;
     color: var(--second_text-color);
     text-align: center;
