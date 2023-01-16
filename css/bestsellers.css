@@ -50,8 +50,9 @@
     display: flex;
     background-size: cover;
     background-position: 50% 50%;
-   
+
 }
+
 .indian-ale_compositions {
     color: var(--text-color);
     text-align: center;
@@ -65,8 +66,9 @@
     display: flex;
     background-size: cover;
     background-position: 50% 50%;
-    
+
 }
+
 .american-ale_compositions {
     color: var(--text-color);
     text-align: center;
